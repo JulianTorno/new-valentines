@@ -1,0 +1,137 @@
+H3 {
+    position: absolute;
+    font-family: ARIAL;
+    margin-top: 30px;
+    margin-left: 100px;
+  }
+  .y-btn {
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 350px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: 10px solid black;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: 3px 15px rgb(212, 212, 212);
+  }
+  .n-btn:hover {
+    background: #FFFFFF;
+    color: #111010; 
+    text-decoration: underline;
+  }
+  
+  .n-btn {
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 100px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: 10px solid black;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: 3px 15px rgb(212, 212, 212);
+   
+  }
+  .dramaMoments{
+    position: absolute;
+    margin-top: 750px; 
+    margin-left: 100px;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 16px;
+
+  }
+  .cat{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+
+  }
+
+  .solid-ka{
+    position: absolute;
+    margin-top: 750px;
+    margin-left: 50px;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 16px;
+  }
+#audio {
+  display: none;
+}
+  @media screen and (max-width: 600px) {
+    /* Apply styles for screens with a maximum width of 600px */
+   h3{
+    position: absolute;
+    margin-left: 50px;
+   }
+   .n-btn {
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 100px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: 10px solid black;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: 3px 15px rgb(212, 212, 212);
+  }
+  .y-btn {
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 100px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: 10px solid black;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: 3px 15px rgb(212, 212, 212);
+  }
+  .dramaMoments{
+    position: absolute;
+    margin-top: 700px; 
+    margin-left: 50px;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 16px;
+
+  }
+  .cat{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 13px;
+
+  }
+  .solid-ka{
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 20px;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .n-btn:hover {
+    background: #FFFFFF;
+    color: #111010; 
+    text-decoration: underline;
+  }
+  .y-btn:hover {
+    background: #FFFFFF;
+    color: #111010; 
+    text-decoration: underline;
+  }
+  }
+  
